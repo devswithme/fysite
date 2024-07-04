@@ -111,7 +111,24 @@ function App() {
 								View Site <ArrowUpRight className='w-4 h-4 ml-2' />
 							</a>
 						</div>
-						<img src='work/4.png' />
+						<div className='relative group overflow-hidden'>
+							<img
+								src='work/4.png'
+								className='group-hover:blur-sm transition-all'
+							/>
+							<a
+								href='https://s.id/fysite'
+								target='_blank'
+								className={buttonVariants({
+									size: 'sm',
+
+									className:
+										'absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] opacity-0 group-hover:opacity-100 transition-all',
+								})}>
+								View Site <ArrowUpRight className='w-4 h-4 ml-2' />
+							</a>
+						</div>
+						<img src='work/5.png' />
 					</section>
 					<section
 						id='contactus'
